@@ -25,8 +25,8 @@
 MyComponent1/2都请求Rigidbody2D组件, 并在没有该组件时输出警告日志并禁用自身  
 MyComponent3额外请求Collider2D组件, 他同时需要两个组件才能运行  
 $\color{green}{新增Test4物体带组件MyComponent4: }$  
-- 检测没有Rigidbody2D会在Inspector面板警告⚠并禁用自身, 并展示添加组件按钮
-- 添加后取消警告并显示原变量
+- $\color{green}{检测没有Rigidbody2D会在Inspector面板警告⚠并禁用自身, 并展示添加组件按钮}$
+- $\color{green}{添加后取消警告并显示原变量}$
 
 
 语法备用$\color{orange}{T2}$
