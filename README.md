@@ -8,7 +8,7 @@
 ### 当前功能: 
 - #### 将你的组件标记为请求必须项
 1. **$\color{orange}{修改}$**  
-    - `~~使用RequireCustomComponentDrawer类~~ (旧版已过时)`  
+    - 　<font color='red'> ~~使用RequireCustomComponentDrawer类~~ (旧版已过时) </font>  
     - $\color{orange}{使用[RequireEssentials]标记}$
       - ```
           [RequireEssentials(typeof(SpriteRenderer), typeof(CircleCollider2D))]
