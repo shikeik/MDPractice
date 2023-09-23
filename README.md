@@ -21,7 +21,7 @@
         - 现在只针对Rigidbody2D组件
         - 并且字段必须声明public, 或者使用 [SerializeField]标记
 ### 当前内容: 
-一个$\color{orange}{SampleScene}$场景有Gameobject-Test1/2/3, 分别有三种不同的组件MyComponent1/2/3  
+一个 $\color{orange}{SampleScene}$ 场景有Gameobject-Test1/2/3, 分别有三种不同的组件MyComponent1/2/3  
 MyComponent1/2都请求Rigidbody2D组件, 并在没有该组件时输出警告日志并禁用自身  
 MyComponent3额外请求Collider2D组件, 他同时需要两个组件才能运行  
 $\color{green}{新增Test4物体带组件MyComponent4: }$  
