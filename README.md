@@ -22,12 +22,12 @@
         - ~~并且字段必须声明public, 或者使用 [SerializeField]标记~~
           - 现在使用一个额外的String变量并标记所有你请求的组件即可
 ### 当前内容: 
-一个 $\color{orange}{SampleScene}$ 场景有Gameobject-Test1/2/3, 分别有三种不同的组件MyComponent1/2/3  
-MyComponent1/2都请求Rigidbody2D组件, 并在没有该组件时输出警告日志并禁用自身  
-MyComponent3额外请求Collider2D组件, 他同时需要两个组件才能运行  
-Test4物体带组件MyComponent4: 
-- 检测没有Rigidbody2D会在Inspector面板警告⚠并禁用自身, 并展示添加组件按钮
-- 添加后取消警告并显示原变量  
-$\color{green}{Test5/6, 组件MyComponent5/6, 都使用T2.1标记}$  
-- $\color{green}{遍历检测目标组件不存在则Inspector面板依次显示警告⚠并禁用自身, 并展示添加组件按钮}$
-- $\color{green}{添加后取消警告并激活自身, 不绘制目标字段}$
+1. 一个 $\color{orange}{SampleScene}$ 场景有Gameobject-Test1/2/3, 分别有三种不同的组件MyComponent1/2/3  
+1. MyComponent1/2都请求Rigidbody2D组件, 并在没有该组件时输出警告日志并禁用自身  
+1. MyComponent3额外请求Collider2D组件, 他同时需要两个组件才能运行  
+1. Test4物体带组件MyComponent4: 
+    - 检测没有Rigidbody2D会在Inspector面板警告⚠并禁用自身, 并展示添加组件按钮
+    - 添加后取消警告并显示原变量  
+1. $\color{green}{Test5/6, 组件MyComponent5/6, 都使用T2.1标记}$  
+    - $\color{green}{遍历检测目标组件不存在则Inspector面板依次显示警告⚠并禁用自身, 并展示添加组件按钮}$
+    - $\color{green}{添加后取消警告并激活自身, 不绘制目标字段}$
