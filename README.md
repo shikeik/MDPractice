@@ -2,11 +2,12 @@
 练习Markdown语法
 
 # T2
+
 ### 应用场景: 
 - 当你的组件依赖某些引用项, 否则无法运行时, 在你的类前使用此标记RequireEssential[typeof(essentialType)]
 ### 当前功能: 
 - #### 将你的组件标记为请求必须项
-    1. ~~`旧版RequireCustomComponentDrawer步骤(不推荐):`~~
+    1. ~~$\color{red}{旧版RequireCustomComponentDrawer步骤(不推荐):}$~~
     1. $\color{green}{新版}$
 
 ### 当前内容: 
